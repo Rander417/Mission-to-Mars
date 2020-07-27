@@ -10,7 +10,9 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
   </head>
+
   <body>
+    <!-- BOOTSTRAP -->
     <div class="container">
       <!-- Add Jumbotron to Header -->
       <div class="jumbotron text-center">
@@ -18,6 +20,7 @@
         <!-- Add a button to activate scraping script -->
         <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
       </div>
+
       <!-- Add section for Mars News -->
       <div class="row" id="mars-news">
         <div class="col-md-12">
@@ -30,6 +33,8 @@
           </div>
         </div>
       </div>
+
+      
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
         <div class="col-md-8">
@@ -41,6 +46,7 @@
           />
         </div>
         <div class="col-md-4">
+
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
             <h4>Mars Facts</h4>
@@ -48,6 +54,19 @@
           </div>
         </div>
       </div>
-    </div>
+
+
+      <!-- Section for Hemisphere images-->
+      <div class="card" id="hemisphere_images" style="width: 18rem;">
+        <div class="card-body">
+          <h2 class="card-title">Hemisphere Images</h2>
+          <img src="{{ mars.hemisphere }}" class="img-responsive" alt="Responsive image"/>
+        </div>
+      </div>
+
+
+
+    </div> <!-- END OF CONTAINER-->
+
   </body>
 </html>
