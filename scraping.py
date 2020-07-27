@@ -133,7 +133,7 @@ def hemisphere(browser):
         
         # Challenge instruction #2
         # Create full URL and get the title
-        img_url = f'https://www.jpl.nasa.gov{img_url_rel}'
+        img_url = f'https://astrogeology.usgs.gov/{img_url_rel}'
 
         img_title = img_soup.select_one("div.container div h2.title").get_text()
 

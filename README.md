@@ -1,15 +1,13 @@
 # Mission-to-Mars
 
-### Get the latest NASA Mars new at the clikc of a button!
-
-![](topshot.png)
-
+### Get the latest NASA Mars new at the click of a button!
+![](images/Mars_page.png)
 
 
 
 ### Portfolio
-[Portfolio](https://github.com/Rander417/Portfolio)
+[Github link to portfolio](https://github.com/Rander417/Portfolio)
 
 ![](images/portfolio.png)
 ![](images/projects.png)
-![](images/education.png)
+![](images/Education.png)
